@@ -1,0 +1,35 @@
+REST API-JSON
+
+{hybrid server}
+
+GET /users-HTML document reader -{Done}
+
+GET/API/users -List all users json- {Done}
+
+{hybrid server}
+
+RESTAPI-JSON
+ 
+GET/api/users/1-Get the user with id-01
+GET/api/users/2-Get the user with id-02
+
+Dynamic path parmaters
+GET/api/users/:id
+              ^^
+              ||
+:id->variable | Dynamic
+/id->simple path
+
+
+--->>
+in detail concept we learn in next video
+in this video we learn concept about GET request.
+--->>
+
+POST /users-create new user
+
+PATCH /users/1-edit the user with id 1
+
+DELETE /users/1-DELETE the user with  id 1
+
+----->>taking dummmy data from mockaroo <<------

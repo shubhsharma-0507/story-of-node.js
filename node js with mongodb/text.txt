@@ -1,0 +1,47 @@
+*****schema - define the structure(name,id,date of birth,etc)
+const userSchema=new mongoose.Schema({
+    //deal with the user
+    firstName:{
+        type: String,
+        required: true,
+
+    },
+    lastName:{
+        type: String,
+    },
+    email:{
+        type:String,
+        required: true,
+        unique:true,
+    },
+    job_title:{
+        type: String,
+    },
+    gender:{
+        type: String,
+    },
+)}
+});
+
+******schema-model(for connecting the nodejs(express)and mongodb)
+
+
+const User=mongoose.model("user",userSchema);
+mongoose.connect("mongodb://127.0.0.1:27017/labhshubh").then(()=>console.log('MongoDB connected')).catch((err)=>console.log('mongo error',err));
+
+
+using model we do CRUD operation.
+ const result = await User.create({
+       
+
+        firstName: body.first_name,
+        lastName: body.last_name,
+        email:body.email,
+        job_title:body.job_title,
+        gender:body.gender,
+    });
+    console.log('result',result);
+
+    return res.status(201).json({msg: "success"});
+
+});

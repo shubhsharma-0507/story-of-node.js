@@ -1,0 +1,20 @@
+string litral----->>(  `` )
+
+npm i nanoid----->"generate string for url" and generate for shorturl id
+npm init   
+npm i //package-json import
+npm i express
+npm i mongoose
+npm i nodemon 
+npm run dev   
+npm start  
+npm i cookie-parser------>//req.cookies?.uid;
+npm install uuid
+npm i ejs   
+multer library for uploads picture and perform manupilation
+npm i multer
+bootstrap for readymade tailwind css thing like form ,nav,alert etc
+npm documentation
+npm i jsonwebtoken-------->>>>>// for stateless authentication // taaki hum token ke ander humara data store rakh paye
+node hash.js (we use To perform a cryptographic hash in Node.js ) for basically hashing
+ *.* *.* *.* *.**.*
